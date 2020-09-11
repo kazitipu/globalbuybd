@@ -6,7 +6,7 @@ import Language from './language';
 import { AlignLeft, Maximize2, Bell, MessageSquare, MoreHorizontal } from 'react-feather';
 
 //images
-import logo from '../../../assets/images/dashboard/multikart-logo.png'
+import logo from '../../../assets/images/dashboard/14.png'
 
 export class Header extends Component {
     constructor(props) {

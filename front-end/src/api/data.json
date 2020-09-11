@@ -2085,7 +2085,7 @@
   },
   {
     "id": 101,
-    "name": "Turkey",
+    "name": "Black dress",
     "price": 300.00,
     "salePrice": 600.00,
     "discount": 50,
@@ -2099,7 +2099,7 @@
   },
   {
     "id": 102,
-    "name": "Turkey and Chicken",
+    "name": "kids party dress",
     "price": 150.00,
     "salePrice": 300.00,
     "discount": 50,
@@ -2113,7 +2113,7 @@
   },
   {
     "id": 103,
-    "name": "Roasted Bison",
+    "name": "kids outdoor",
     "price": 200.00,
     "salePrice": 400.00,
     "discount": 50,
@@ -2127,7 +2127,7 @@
   },
   {
     "id": 104,
-    "name": "Puppy Food",
+    "name": "white dress",
     "price": 300.00,
     "salePrice": 600.00,
     "discount": 50,
@@ -2141,7 +2141,7 @@
   },
   {
     "id": 105,
-    "name": "Dog Orthopadic",
+    "name": "striped blezzer",
     "price": 350.00,
     "salePrice": 700.00,
     "discount": 50,
@@ -2155,7 +2155,7 @@
   },
   {
     "id": 106,
-    "name": "Dog Crock",
+    "name": "blue blezzer",
     "price": 130.00,
     "salePrice": 260.00,
     "discount": 50,
@@ -2169,7 +2169,7 @@
   },
   {
     "id": 107,
-    "name": "Dog Dry Food",
+    "name": "funky full sleve T-shirt",
     "price": 500.00,
     "salePrice": 1000.00,
     "discount": 50,
@@ -2183,7 +2183,7 @@
   },
   {
     "id": 108,
-    "name": "Dry Food",
+    "name": "Men's fashion",
     "price": 300.00,
     "salePrice": 600.00,
     "discount": 50,
@@ -2199,7 +2199,7 @@
 
   {
     "id": 120,
-    "name": "Turkey",
+    "name": "black dress",
     "price": 300.00,
     "salePrice": 600.00,
     "discount": 50,
@@ -2214,7 +2214,7 @@
   },
   {
     "id": 121,
-    "name": "Turkey and Chicken",
+    "name": "kids dress",
     "price": 150.00,
     "salePrice": 300.00,
     "discount": 50,
@@ -2229,7 +2229,7 @@
   },
   {
     "id": 122,
-    "name": "Roasted Bison",
+    "name": "outdoor",
     "price": 200.00,
     "salePrice": 400.00,
     "discount": 50,
@@ -2244,7 +2244,7 @@
   },
   {
     "id": 123,
-    "name": "Puppy Food",
+    "name": "white dress",
     "price": 300.00,
     "salePrice": 600.00,
     "discount": 50,
@@ -2259,7 +2259,7 @@
   },
   {
     "id": 124,
-    "name": "Dog Orthopadic",
+    "name": "blezzer",
     "price": 350.00,
     "salePrice": 700.00,
     "discount": 50,
@@ -2274,7 +2274,7 @@
   },
   {
     "id": 125,
-    "name": "Dog Crock",
+    "name": "blue blezzer",
     "price": 130.00,
     "salePrice": 260.00,
     "discount": 50,
@@ -2289,7 +2289,7 @@
   },
   {
     "id": 126,
-    "name": "Dog Dry Food",
+    "name": "funky men's",
     "price": 500.00,
     "salePrice": 1000.00,
     "discount": 50,
@@ -2304,7 +2304,7 @@
   },
   {
     "id": 127,
-    "name": "Dry Food",
+    "name": "mens fashion",
     "price": 300.00,
     "salePrice": 600.00,
     "discount": 50,

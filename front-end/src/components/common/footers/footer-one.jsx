@@ -3,6 +3,7 @@ import { Link} from 'react-router-dom';
 
 import {SlideUpDown} from "../../../services/script"
 import LogoImage from "../headers/common/logo"
+import './footer-one.css'
 
 class FooterOne extends Component {
 
@@ -126,8 +127,8 @@ class FooterOne extends Component {
                                             <li><i className="fa fa-map-marker"></i>GlobalbuyBD,pritom zaman tower,level-10
                                             </li>
                                             <li><i className="fa fa-phone"></i>Call Us: +88-01620-327185</li>
-                                            <li><i className="fa fa-envelope-o"></i>Email Us: <a
-                                                href="#">globalbuybd@gmail.com</a></li>
+                                            <li><i className="fa fa-envelope-o "></i>Email Us: <a
+                                                href="#" className='style-email'>globalbuybd@gmail.com</a></li>
                                             
                                         </ul>
                                     </div>

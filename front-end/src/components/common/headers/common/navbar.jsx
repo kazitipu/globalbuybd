@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { withTranslate } from 'react-redux-multilingual'
 import './navbar.css'
 
 class NavBar extends Component {
@@ -65,7 +64,6 @@ class NavBar extends Component {
     }
 
     render() {
-        const { translate } = this.props;
         return (
             <div>
                 <div className="main-navbar">
@@ -81,48 +79,35 @@ class NavBar extends Component {
                                 </div>
                             </li>
                             <li >
-                                <Link to="#" className="nav-link new-arrival" onClick={(e) => this.handleSubmenu(e)}>
+                                <Link to="/" className="nav-link new-arrival">
                                     New Arrival
-                                    {/* <span className="sub-arrow"></span> */}
+        
                                 </Link>
-                                {/* <ul className="nav-submenu" >
-                                    <li><Link to={`${process.env.PUBLIC_URL}/fashion`} >{translate('fashion')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/beauty`} >{translate('beauty')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/electronic`} >{translate('electronic')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/furniture`} >{translate('furniture')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/kids`} >{translate('kids')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/pets`} >{translate('pets')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/vegetables`} >{translate('vegetables')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/watch`} >{translate('watch')}</Link></li>
-                                </ul> */}
                             </li>
                             <li >
-                                <Link to="#" className="nav-link" onClick={(e) => this.handleSubmenu(e)}>
+                                <Link to="/" className="nav-link">
+                                    Best Selling
+        
+                                </Link>
+                            </li>
+                            <li >
+                                <Link to="/" className="nav-link" onClick={(e) => this.handleSubmenu(e)}>
                                     featured
                                     <span className="sub-arrow"></span>
                                 </Link>
                                 <ul className="nav-submenu">
-                                    <li><Link to={`${process.env.PUBLIC_URL}/left-sidebar/collection`} >{translate('electronic')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/right-sidebar/collection`} >{translate('watch')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/no-sidebar/collection`} >{translate('beauty')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/metro/collection`} >{translate('fashion')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/full-width/collection`} >{translate('kids')}</Link></li>
+                                    <li><Link to={`${process.env.PUBLIC_URL}/left-sidebar/collection`} >electronic</Link></li>
+                                    <li><Link to={`${process.env.PUBLIC_URL}/right-sidebar/collection`} >watch</Link></li>
+                                    <li><Link to={`${process.env.PUBLIC_URL}/no-sidebar/collection`} >beauty</Link></li>
+                                    <li><Link to={`${process.env.PUBLIC_URL}/metro/collection`} >fashion</Link></li>
+                                    <li><Link to={`${process.env.PUBLIC_URL}/full-width/collection`} >kids</Link></li>
                                 </ul>
                             </li>
                             <li >
-                                <Link to="#" className="nav-link blinking-text" style={{'color':"orange"}} onClick={(e) => this.handleSubmenu(e)}>
-                                Flash Deals &nbsp;<i class="fa fa-bolt" aria-hidden="true"></i>
+                                <Link to="/" className="nav-link blinking-text" style={{'color':"red"}}>
+                                Flash Deals &nbsp;<i className="fa fa-bolt" aria-hidden="true"></i>
                                 </Link>
-                                {/* <ul className="nav-submenu">
-                                    <li><Link to={`${process.env.PUBLIC_URL}/left-sidebar/product/1`} >{translate('left_sidebar')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/right-sidebar/product/1`} >{translate('right_sidebar')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/no-sidebar/product/1`} >{translate('no_sidebar')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/col-left/product/1`} >{translate('three_col_thumbnail_left')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/col-right/product/1`} >{translate('three_col_thumbnail_right')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/column/product/1`} >{translate('thumbnail_below')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/left-image/product/1`} >{translate('thumbnail_left')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/right-image/product/1`} >{translate('thumbnail_right')}</Link></li>
-                                </ul> */}
+                                
                             </li>
                             <li className="mega-menu">
                                 <Link to="#" className="dropdown" onClick={(e) => this.handleSubmenu(e)}>
@@ -203,11 +188,11 @@ class NavBar extends Component {
                                                     </div>
                                                     <div className="menu-content" >
                                                         <ul>
-                                                            <li><Link to={`${process.env.PUBLIC_URL}/email-template.html`} target="_blank">Fine Jewelry</Link></li>
-                                                            <li><Link to={`${process.env.PUBLIC_URL}/email-template-two.html`} target="_blank">Wedding {`&`} Engagement</Link></li>
-                                                            <li><Link to={`${process.env.PUBLIC_URL}/email-order-success.html`} target="_blank">Fashion Jewelry</Link></li>
-                                                            <li><Link to={`${process.env.PUBLIC_URL}/email-order-success-two.html`} target="_blank">Men's Watches</Link></li>
-                                                            <li><Link to={`${process.env.PUBLIC_URL}/email-order-success-two.html`} target="_blank">Women's Watches</Link></li>
+                                                            <li><Link to={`${process.env.PUBLIC_URL}/`}>Fine Jewelry</Link></li>
+                                                            <li><Link to={`${process.env.PUBLIC_URL}/`}>Wedding {`&`} Engagement</Link></li>
+                                                            <li><Link to={`${process.env.PUBLIC_URL}/`}>Fashion Jewelry</Link></li>
+                                                            <li><Link to={`${process.env.PUBLIC_URL}/`}>Men's Watches</Link></li>
+                                                            <li><Link to={`${process.env.PUBLIC_URL}/`}>Women's Watches</Link></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -262,17 +247,10 @@ class NavBar extends Component {
                                     <span className="sub-arrow"></span>
                                 </Link>
                                 <ul className="nav-submenu">
-                                    <li><Link to={`${process.env.PUBLIC_URL}/pages/about-us`} >{translate('about_us')}</Link></li>
-                                    {/* <li><Link to={`${process.env.PUBLIC_URL}/pages/404`} >404</Link></li> */}
-                                    {/* <li><Link to={`${process.env.PUBLIC_URL}/pages/lookbook`} >{translate('lookbook')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/pages/login`} >{translate('login')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/pages/register`} >{translate('register')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/pages/search`} >{translate('search')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/pages/collection`} >{translate('collection')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/pages/forget-password`} >{translate('forget_password')}</Link></li> */}
-                                    <li><Link to={`${process.env.PUBLIC_URL}/pages/contact`} >{translate('contact')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/pages/dashboard`} >{translate('dashboard')}</Link></li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/pages/faq`} >{translate('FAQ')}</Link></li>
+                                    <li><Link to={`${process.env.PUBLIC_URL}/pages/about-us`} >about_us</Link></li>
+                                    <li><Link to={`${process.env.PUBLIC_URL}/pages/contact`} >contact</Link></li>
+                                    <li><Link to={`${process.env.PUBLIC_URL}/pages/dashboard`} >dashboard</Link></li>
+                                    <li><Link to={`${process.env.PUBLIC_URL}/pages/faq`} >FAQ</Link></li>
                                 </ul>
                             </li>
                             <li >
@@ -294,4 +272,4 @@ class NavBar extends Component {
 }
 
 
-export default withTranslate(NavBar);
+export default NavBar;

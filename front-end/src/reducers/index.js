@@ -7,9 +7,11 @@ import cartReducer from './cart';
 import filtersReducer from './filters';
 import wishlistReducer from './wishlist';
 import compareReducer from './compare';
+import setCurrentUserReducer from './currentUser'
 
 
 const rootReducer = combineReducers({
+    user:setCurrentUserReducer,
     data: productReducer,
     cartList: cartReducer,
     filters: filtersReducer,

@@ -175,6 +175,8 @@ class HeaderThree extends Component {
     }
 }
 
+
+
 export default connect(null,
     { changeCurrency }
 )(HeaderThree);

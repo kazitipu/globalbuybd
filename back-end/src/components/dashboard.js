@@ -14,10 +14,10 @@ import {
     employeeData, 
     employeeOptions 
 } from '../constants/chartData'
-// image impoer
+// image import
 import user2 from '../assets/images/dashboard/user2.jpg';
 import user1 from '../assets/images/dashboard/user1.jpg';
-import man from '../assets/images/dashboard/man.png';
+import man from '../assets/images/dashboard/man.jpg';
 import user from '../assets/images/dashboard/user.png';
 import designer from '../assets/images/dashboard/designer.jpg'
 var CanvasJS = CanvasJSReact.CanvasJS;

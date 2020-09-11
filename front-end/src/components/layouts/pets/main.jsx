@@ -11,12 +11,35 @@ import BlogSection from "../common/blogsection";
 import HeaderThree from "../../common/headers/header-three"
 import FooterTwo from "../../common/footers/footer-two"
 import ThemeSettings from "../../common/theme-settings"
+import axios from 'axios'
 
 
 class Pets extends Component {
 
     componentDidMount() {
         document.getElementById("color").setAttribute("href", `${process.env.PUBLIC_URL}/assets/css/color15.css` );
+        console.log(this.props)
+    //     axios({
+    // "method":"GET",
+    // "url":"https://ali-express1.p.rapidapi.com/search",
+    // "headers":{
+    // "content-type":"application/octet-stream",
+    // "x-rapidapi-host":"ali-express1.p.rapidapi.com",
+    // "x-rapidapi-key":"5c1d96e00emsh9bedadd36c08532p1ac2a8jsn5aad4eb79ad7",
+    // "useQueryString":true
+    // },"params":{
+    // "from":"0",
+    // "limit":"20",
+    // "country":"BD",
+    // "query":"umbrella"
+    // }
+    // })
+    // .then((response)=>{
+    //   console.log(response)
+    // })
+    // .catch((error)=>{
+    //   console.log(error)
+    // })
     }
 
     render(){

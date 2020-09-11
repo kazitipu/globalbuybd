@@ -5,7 +5,7 @@ import user from '../../assets/images/dashboard/user.png';
 import user1 from '../../assets/images/dashboard/user1.jpg';
 import user2 from '../../assets/images/dashboard/user2.jpg';
 import user3 from '../../assets/images/dashboard/user3.jpg';
-import man from '../../assets/images/dashboard/man.png';
+import man from '../../assets/images/dashboard/man.jpg';
 import user5 from '../../assets/images/dashboard/user5.jpg';
 import designer from '../../assets/images/dashboard/designer.jpg'
 

@@ -4,6 +4,13 @@ import store from "../store";
 import { toast  } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 
+export const setCurrentUser = (user) =>{
+    return{
+        type:'SET_CURRENT_USER',
+        payload: user
+    }
+};
+
 export const fetchProductsBegin = () => ({
     type: types.FETCH_PRODUCTS_BEGIN
 });
